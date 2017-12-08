@@ -34,5 +34,5 @@ function three () {
 
   // Next, we apply a new CSS class to it:
   three.classList.add('red')
-
+}
 // CREATE FUNCTION makeVisible HERE
