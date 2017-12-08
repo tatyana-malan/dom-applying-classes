@@ -37,8 +37,9 @@ function three () {
   three.classList.add('red')
 }
 // CREATE FUNCTION makeVisible HERE
-function makeVisible () {
-var makeVisible = document.getElementsByClassName('invisible')
-invisible.classList.replace('invisible', 'red')
-
+function makeVisible() {
+  var elements =  document.getElementsByClassName("invisible");
+  if (elements && elements.length >= 1) {
+    elements[0].classList.toggle('visible');
+  }
 }
